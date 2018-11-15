@@ -9,3 +9,6 @@ GitHub
 
 版本控制
     上传单个文件：选中文件-右键-Git-Repository-Push
+
+版本控制
+    菜单栏-VCS
