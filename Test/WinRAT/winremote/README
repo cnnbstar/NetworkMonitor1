@@ -1,0 +1,2 @@
+usage: windows [-h] --username USERNAME --password PASSWORD --ip IP [--debug]
+               args [args ...]

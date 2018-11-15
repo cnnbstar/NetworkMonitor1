@@ -1,0 +1,18 @@
+Usage: winSysInfo.py [options]
+
+Options:
+  -h, --help                                  显示帮助信息
+  -i INFORMATION, --information=INFORMATION   获取系统信息
+  -L LOG, --log=LOG                           获取中间件日志
+  -s SEARCH, --search=SEARCH                  搜索日志文件
+
+#获取系统信息
+D:\Program\JetBrains\MyProjects\NetworkMonitor\wechat\WinSysInfo>python2 winSysInfo.py -i --information=INFORMATION
+
+#搜索日志文件
+D:\Program\JetBrains\MyProjects\NetworkMonitor\wechat\WinSysInfo>python2 winSysInfo.py -s --search=SEARCH
+
+#获取中间件日志
+D:\Program\JetBrains\MyProjects\NetworkMonitor\wechat\WinSysInfo>python2 winSysInfo.py -l --log=LOG
+
+
