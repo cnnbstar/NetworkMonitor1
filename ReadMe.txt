@@ -3,6 +3,10 @@ GitHub
     URL：https://github.com
     账号：cnnbstar/office
 
+    myproject上有2个分支：
+        master：生产版本
+        dev：开发版本
+
     配置账号：File-Setting-s-Version Control-GitHub
     上传项目：VCS-Import to Version Control-Share Project on Github
 
@@ -14,3 +18,8 @@ GitHub
     菜单栏-VCS
     创建dev分支
     master,dev
+
+    默认初始化完成的工程会有一个master分支
+    我们一般在dev分支上开发，之后测试问题再合并到master上
+
+    当前为分支dev
