@@ -23,3 +23,4 @@ GitHub
     我们一般在dev分支上开发，之后测试问题再合并到master上
 
     当前为分支dev
+    测试完成 没有问题 发布到master
