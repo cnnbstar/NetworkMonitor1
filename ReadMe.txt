@@ -13,3 +13,4 @@ GitHub
 版本控制
     菜单栏-VCS
     创建dev分支
+    master,dev
