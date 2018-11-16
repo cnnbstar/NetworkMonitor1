@@ -1,6 +1,0 @@
-
-
-from flask_peewee.db import Database
-from flask_peewee.auth import Auth
-
-无法下载flask_peewee.db/auth
