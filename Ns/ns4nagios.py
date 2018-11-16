@@ -17,6 +17,7 @@ __all__ = [
 class NS4P:
     '''
     初始化说明
+    相比于独立NS4P.py做了如下改动：P254,256去掉repr()，启用\n转义符
     '''
     def __init__(self):
         '''
@@ -250,9 +251,11 @@ class NS4P:
             elif l == '-t':
                 resultDict['noticeType']=inputList[inputList.index('-t')+1]
             elif l == '-s':
-                resultDict['noticeSubject']=repr(inputList[inputList.index('-s')+1])
+                #resultDict['noticeSubject']=repr(inputList[inputList.index('-s')+1])
+                resultDict['noticeSubject']=inputList[inputList.index('-s')+1]
             elif l == '-c':
-                resultDict['noticeContent']=repr(inputList[inputList.index('-c')+1])
+                #resultDict['noticeContent']=repr(inputList[inputList.index('-c')+1])
+                resultDict['noticeContent']=inputList[inputList.index('-c')+1]
             elif l == '-i':
                 resultDict['typeImportant']='true'
             elif l == '-h':
@@ -361,7 +364,6 @@ class NS4Nagios:
                 '-c',content,
                 '-i'
             ]
-
             myParaDict = self.myns.inputFormat(inputList)
             self.myns.sendNotices(myParaDict)
 
