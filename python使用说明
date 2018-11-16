@@ -8,6 +8,13 @@ GitHub
 
     配置账号：File-Setting-s-Version Control-GitHub
     上传项目：VCS-Import to Version Control-Share Project on Github
+    下传项目：VCS-Checkout from Version Control-Github
+
+版本控制
+    远端GitHub：创建master,dev两个分支
+
+    本地上传到远端GitHub某个分支：VCS-Git-Push-"xxx->origin:dev/master"  #手动输入dev或者master来选择GitHub上的分支
+    远端GibHub某个分支下载到本地：VCS-Git-Branches-
 
 
 版本控制
